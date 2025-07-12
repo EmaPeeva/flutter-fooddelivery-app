@@ -80,16 +80,17 @@ flutter run
 ---
 
 
-### Contribution
+## Contribution
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
 ---
 
-#### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-### Contact
-
+## Contact 
+For questions or suggestions, please open an issue or contact via GitHub profile:
+https://github.com/EmaPeeva
 
