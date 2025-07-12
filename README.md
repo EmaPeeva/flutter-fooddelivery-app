@@ -50,12 +50,3 @@ samples, guidance on mobile development, and a full API reference.
 
 ```bash
 git clone https://github.com/EmaPeeva/flutter-fooddelivery-app
-
-
-
-
-
-
-
-
-
