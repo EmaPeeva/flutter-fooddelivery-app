@@ -51,25 +51,8 @@ samples, guidance on mobile development, and a full API reference.
 ```bash
 git clone https://github.com/EmaPeeva/flutter-fooddelivery-app
 
-2. **Navigate to the project directory**
-```bash
-cd https://github.com/EmaPeeva/flutter-fooddelivery-app
 
-3. **Fetch project dependencies**
 
-```bash
-flutter pub get
-
-4.Configure Firebase
-
-Add your google-services.json file to the android/app directory.
-
-Add your GoogleService-Info.plist file to the ios/Runner directory.
-
-5.Run the application
-
-```bash
-flutter run
 
 
 
