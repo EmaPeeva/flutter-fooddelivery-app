@@ -1,4 +1,4 @@
-# Flutter Food Ordering Application
+# Food Ordering Application
 
 A robust and scalable cross-platform mobile application developed with **Flutter** and **Dart**, designed to facilitate seamless food ordering experiences. This project integrates real-time order management, user authentication, administrative oversight, and in-app communication, leveraging **Firebase Firestore** as the backend service.
 
@@ -27,22 +27,18 @@ A robust and scalable cross-platform mobile application developed with **Flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a fully functional Flutter application integrated with Firebase services. It provides a solid foundation for building scalable food ordering apps with real-time features.
 
-A few resources to get you started if this is your first Flutter project:
+Follow the instructions below to set up and run the project locally.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter SDK:** Install from the [official guide](https://flutter.dev/docs/get-started/install) and verify with `flutter doctor`.
+- **Firebase Project:** Create a Firebase project with Firestore and Authentication enabled. Download and add the configuration files:
+  - `google-services.json` to `android/app/`
+  - `GoogleService-Info.plist` to `ios/Runner/`
+- **Development IDE:** Use Android Studio, VS Code, or IntelliJ with Flutter and Dart plugins installed. Ensure you have an emulator or device connected.
 
-### Prerequisites
-
-- Flutter SDK (Refer to the [official Flutter installation guide](https://flutter.dev/docs/get-started/install))
-- Firebase project with Firestore and Authentication enabled
-- IDE such as Android Studio, Visual Studio Code, or IntelliJ IDEA configured for Flutter development
 
 ### Installation & Setup
 
@@ -50,3 +46,31 @@ samples, guidance on mobile development, and a full API reference.
 
 ```bash
 git clone https://github.com/EmaPeeva/flutter-fooddelivery-app
+```
+
+2. **Navigate to the project directory**
+
+```bash
+cd flutter-fooddelivery-app
+```
+
+3. **Fetch project dependencies**
+```bash
+flutter pub get
+```
+
+4. **Configure Firebase**
+Add your google-services.json file to the android/app/ directory.
+Add your GoogleService-Info.plist file to the ios/Runner/ directory.
+
+5. **Run the application**
+```bash
+flutter run
+```
+
+### Contribution
+Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
+
+#### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
