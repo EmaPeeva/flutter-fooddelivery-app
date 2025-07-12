@@ -67,6 +67,8 @@ Add your GoogleService-Info.plist file to the ios/Runner/ directory.
 ```bash
 flutter run
 ```
+---
+
 ### Configuration / Environment Setup
 Before running the app, ensure you update the following configurations to match your own environment:
 
@@ -89,9 +91,12 @@ If your project uses environment variables or secret files (e.g., .env or Dart -
 
 Avoid committing sensitive keys publicly.
 
+---
 
 ### Contribution
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
+
+---
 
 #### License
 This project is licensed under the MIT License - see the LICENSE file for details.
