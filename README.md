@@ -67,6 +67,28 @@ Add your GoogleService-Info.plist file to the ios/Runner/ directory.
 ```bash
 flutter run
 ```
+### Configuration / Environment Setup
+Before running the app, ensure you update the following configurations to match your own environment:
+
+1. **Firebase Configuration**
+Replace the Firebase config files (google-services.json and GoogleService-Info.plist) with your own from your Firebase console.
+
+Verify Firestore and Authentication are enabled.
+
+Update security rules if necessary.
+
+2. **API Keys**
+Stripe Payment Integration:
+Replace the Stripe API keys in your code with your own test/live keys for processing payments securely.
+Example location in code:
+const String stripePublishableKey = 'pk_test_YOUR_OWN_STRIPE_KEY_HERE';
+
+
+4. **Environment Variables / Secrets**
+If your project uses environment variables or secret files (e.g., .env or Dart --dart-define), update them with your own credentials.
+
+Avoid committing sensitive keys publicly.
+
 
 ### Contribution
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
